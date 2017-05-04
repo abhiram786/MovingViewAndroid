@@ -1,0 +1,321 @@
+<resources>
+  
+
+    <!--nav items applock-->
+    <string name="title_applock">AppLock</string>
+    <string name="title_theme">Themes</string>
+    <string name="title_style">Style</string>
+    <string name="title_settings">Settings</string>
+
+    <!--nav items themes-->
+    <string name="title_theme_all">All</string>
+    <string name="title_theme_top">Top</string>
+    <string name="title_theme_category">Category</string>
+    <string name="title_theme_installed">Installed</string>
+    <string name="title_theme_featured">Featured</string>
+
+    <!--activity labels-->
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_applock">AppLock</string>
+    <string name="title_activity_themes">Themes</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_licence">Open Source Licences</string>
+
+
+    <!--btns-->
+    <string name="btn_theme_apply">Apply</string>
+    <string name="btn_theme_downloading">Downloading...</string>
+    <string name="btn_lock">LOCK</string>
+    <string name="btn_finish">Finish</string>
+    <string name="btn_theme_applied">Applied</string>
+    <string name="btn_theme_download">Download</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!--locktype-->
+    <string name="locktype_pattern">Pattern</string>
+    <string name="locktype_passcode">Passcode</string>
+
+    <!--forget passcode-->
+
+    <string name="recover_title">Don\'t worry if you forget your %s</string>
+    <string name="recover_subtitle">Enter your security answer to reset your %s</string>
+    <string name="title_reset">Reset %s</string>
+    <string name="title_change">Create new %s</string>
+
+    <!--menu-->
+    <string name="menu_search">Search</string>
+    <string name="menu_theme_delete">Delete</string>
+    <string name="menu_licence">Licence</string>
+
+    <string name="unlock_using_passcode">Unlock using Passcode</string>
+    <string name="unlock_using_pattern">Unlock using Pattern</string>
+    <string name="unlock_using_finger">Unlock using Finger</string>
+    <string name="unlock_forget">Forget %s</string>
+
+
+    <!--notification-->
+    <string name="notification_title">%s Theme - AppLock</string>
+    <string name="notification_in_queue">%s In Queue</string>
+    <string name="notification_content_downloading">Downloading</string>
+    <string name="notification_content_completed">%s Theme Download Completed</string>
+    <string name="notification_content_failed">Theme Download Failed</string>
+
+
+    <!--notification warning-->
+    <string name="notification_warning_title">Apps not protected</string>
+    <string name="notification_warning_message">AppLock needs permission to be enabled to work</string>
+
+    <string name="notification_warning_title_draw">AppLock may not work smoothly</string>
+    <string name="notification_warning_message_draw">AppLock needs permission to be enabled to work</string>
+
+
+    <string name="notification_applock_title">AppLock</string>
+    <string name="notification_applock_message_on">Your apps are protected</string>
+    <string name="notification_applock_message_off">Your apps are not protected</string>
+
+
+    <!--accessiblity text-->
+    <string name="accessibility_description">Enable Accessibility Service from top\n
+        After enabling the service\n
+        1.Your locked apps will be protected with battery saver mode\n
+        2.Auto start after the device reboots with speed\n
+        \nWe do not track any user information
+        </string>
+
+    <!-- pattern strings -->
+
+    <string name="loading">Loading…</string>
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <string name="msg_draw_an_unlock_pattern">Draw an unlock pattern:</string>
+    <string name="msg_draw_pattern_to_unlock">Draw pattern to unlock:</string>
+    <string name="msg_pattern_recorded">Pattern recorded!</string>
+    <string name="msg_redraw_pattern_to_confirm">Redraw pattern to confirm</string>
+    <string name="msg_release_finger_when_done">Release finger when done</string>
+    <string name="msg_try_again">Sorry, try again</string>
+    <string name="msg_your_new_unlock_pattern">Your new unlock pattern</string>
+    <string name="msg_checking_unlock_pattern">Verifying your pattern</string>
+    <string name="apmsg_connect_4_dots">Connect at least 4 dot.\n Try again… </string>
+
+
+    <!-- passcode -->
+    <string name="passcode_title_create">Create New Passcode</string>
+    <string name="passcode_title_confirm">Confirm your Passcode</string>
+    <string name="passcode_title_confirm_wrong">Passcode does\'t match, Retry</string>
+    <string name="passcode_title_verify">Enter Passcode</string>
+    <string name="passcode_title_verify_wrong">Wrong Passcode Entered</string>
+
+
+    <!--fingerprint-->
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="fingerprint_hint">Use fingerprint to unlock</string>
+    <string name="fingerprint_description">Use fingerprint to unlock</string>
+
+
+    <!-- app category -->
+    <string name="lock_subtitle_chat">Prevent others from Viewing chat logs</string>
+    <string name="lock_subtitle_feed">Prevent others from Viewing private feeds and chats</string>
+    <string name="lock_subtitle_facebook">Prevent others from Viewing private info</string>
+    <string name="lock_subtitle_message">Prevent others from Viewing Messages</string>
+    <string name="lock_subtitle_setting">Prevent apps from being uninstalled or force closed</string>
+    <string name="lock_subtitle_market">Prevent from installing or uninstalling apps</string>
+    <string name="lock_subtitle_gallery">Prevent others from Viewing Images/Videos</string>
+    <string name="lock_subtitle_video">Prevent others from Viewing Videos</string>
+    <string name="lock_subtitle_phone">Prevent others from Making/Receiving call</string>
+    <string name="lock_subtitle_contact">Prevent others from viewing/Editing Contacts</string>
+    <string name="lock_subtitle_recent">Prevent others from viewing recent apps</string>
+    <string name="lock_subtitle_system">System App</string>
+    <string name="lock_subtitle_installed">Third-party App</string>
+    <string name="app_content_header_rec">Recommended to Lock</string>
+    <string name="app_content_header_other">Other Apps</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_applock_state">Enable AppLock</string>
+    <string name="pref_description_applock_state_off">AppLock Disabled</string>
+    <string name="pref_description_applock_state_on">AppLock Enabled</string>
+    <string name="pref_title_relock_state">Allow Brief exit</string>
+    <string name="pref_description_relock_state">Allow Brief exit</string>
+    <string name="pref_title_relock_timeout">Brief exit time</string>
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_lock">Lock Settings</string>
+    <string name="pref_title_lock_type">Choose Lock Type</string>
+
+
+    <string name="pref_title_fingerprint">FingerPrint Lock</string>
+    <string name="pref_description_fingerprint_off">FingerPrint Deactivated</string>
+    <string name="pref_description_fingerprint_on">FingerPrint Activated</string>
+
+    <string name="pref_title_vibrate_state">Vibration Feedback</string>
+    <string name="pref_description_vibrate_off">Vibration Disabled</string>
+    <string name="pref_description_vibrate_on">Vibration Enabled</string>
+
+
+    <string name="pref_title_stealth_pattern">Pattern Stealth Mode</string>
+    <string name="pref_description_stealth_pattern_off">Show Pattern</string>
+    <string name="pref_description_stealth_pattern_on">Hide Pattern</string>
+
+    <string name="pref_title_change_lock">Change Lock</string>
+    <string name="pref_description_change_lock">Change %s Lock</string>
+
+    <string name="pref_title_passcode_length">Passcode Length</string>
+
+    <string name="pref_title_suffle_passcode">Random Passcode</string>
+    <string name="pref_description_suffle_passcode_on">Suffle Passcode</string>
+    <string name="pref_description_suffle_passcode_off">Normal Passcode</string>
+
+
+    <string name="pref_header_alert">Alert Settings</string>
+    <string name="pref_title_alert_enable">Notify Alert Sound</string>
+    <string name="pref_description_alert_enable_on">Play alert sound</string>
+    <string name="pref_description_alert_enable_off">Do not play alert sound</string>
+
+    <string name="pref_title_alert_loudness">Notify Alert Sound</string>
+    <string name="pref_title_alert_attempts">Alert after wrong attemps</string>
+    <string name="pref_title_alert_time">Ring Alert Time</string>
+
+    <string name="pref_header_user">User Settings</string>
+    <string name="pref_title_user_question">Security Question</string>
+    <string name="pref_title_user_answer">Answer</string>
+
+
+    <string name="welcome_5_tap">Tap</string>
+    <string name="welcome_5_app"> \"SSS\"</string>
+    <string name="welcome_5_enable">Enable accessibility service.</string>
+    <string name="welcome_5_openservice"> \"Open Service\"</string>
+    <string name="welcome_5_btn_openservice">Open\nService</string>
+
+
+    <string name="floating_guide_off">Off</string>
+    <string name="floating_guide_services">SERVICES</string>
+    <string name="floating_guide_find">Find</string>
+    <string name="floating_guide_tips">"If you can\'t find SSS, try to scroll down.\nTap if you got it"</string>
+    <string name="floating_guide_turn_services_on"> and turn its service on.</string>
+
+    <string name="floating_guide_turn_draw_services">Permit drawing over other apps</string>
+
+    <string name="floating_guide_turn_draw_services_on">Turn On \"Permit drawing over other apps\"</string>
+    <!--themes-->
+    <string name="btn_skip">SKIP</string>
+    <string name="btn_next">NEXT</string>
+    <string name="no_theme">No Themes</string>
+    <string name="no_app">No App Found</string>
+    <string name="no_internet">Oops!! Seems No Internet connection</string>
+    <string name="default_theme">This is Default Theme</string>
+    <string name="theme_applied">%s Theme Applied</string>
+
+    <string name="app_locked">%s Now Protected</string>
+    <string name="app_unlocked">%s Unprotected</string>
+
+    <string name="applock_disabled">Apps not protected, Enable from Settings</string>
+
+    <string name="fingerprint_not_supporting">Device not supporting Fingerprint</string>
+
+    <!--welcome-->
+    <string name="welcome_title_1">Lock Apps\nProtect Privacy</string>
+    <string name="welcome_desc_1">Safeguard your personal apps and stuff from your nosy friends</string>
+
+    <string name="welcome_title_2">Passcode or Pattern</string>
+    <string name="welcome_desc_2">Choose Own style of Lock pattern or passcode</string>
+
+    <string name="welcome_title_3">Unlimited Themes</string>
+    <string name="welcome_desc_3">Customize your own lockscreen\n No need download other app</string>
+
+    <string name="welcome_title_4">Set up your Lock</string>
+    <string name="welcome_desc_4">Create your new passcode</string>
+
+    <string name="welcome_title_5">Allow permission</string>
+    <string name="welcome_desc_5">AppLock needs accessibility service to be enabled</string>
+
+
+    <string name="welcome_title_finish">Almost Done!!</string>
+    <!--warning-->
+
+    <string name="warning_permission_title">AppLock not working</string>
+    <string name="warning_permission_stitle">AppLock needs accessibility service to be enabled</string>
+    <string name="btn_open_service">Open Service</string>
+    <string name="btn_trunoff">Turn Off</string>
+
+
+    <string name="tag_new">NEW</string>
+    <string name="tag_top">TOP</string>
+    <string name="tag_paid">PAID</string>
+    <string name="tag_lite">LITE</string>
+
+    <!--review desc-->
+    <string name="txt_rate_title">How much do you rate this app?</string>
+    <string name="txt_feedback_response">Thanks for your feedback</string>
+    <string name="btn_later">LATER</string>
+    <string name="btn_rate">RATE</string>
+
+
+    <string name="btn_save">Done</string>
+
+    <!--deviceUtils-->
+    <string name="huawei_protected_title">Huawei Protected Apps</string>
+    <string name="huawei_ok">Protected Apps</string>
+    <string name="huawei_message">AppLock requires to be enabled in \'Protected Apps\' to function properly</string>
+
+    <string name="mi_protected_title">Mi Protected Apps</string>
+    <string name="mi_ok">AutoStart</string>
+    <string name="mi_message">AppLock requires to be enabled in \'AutoStart\' to function properly</string>
+
+    <string name="other_protected_title">Attention!!</string>
+    <string name="other_ok">Got It</string>
+    <string name="other_message">AppLock requires to be enabled to run in background and Not to be killed by system to function properly\n Please add to Whitelist Apps (AutoStart or Protected apps) from your phone settings</string>
+
+
+    <!--arrays-->
+    <!--quest-->
+    <string name="pref_q1">What was your favorite place to visit as a child?</string>
+    <string name="pref_q2">Who is your favorite actor, musician, or artist?</string>
+    <string name="pref_q3">What is the name of your favorite pet?</string>
+    <string name="pref_q4">In what city were you born?</string>
+    <string name="pref_q5">What is your favorite color?</string>
+    <string name="pref_q6">Who is your first girlfriend/boyfriends?</string>
+    <string name="pref_q7">Who is Your first school teacher?</string>
+    <string name="pref_q8">What is your dream job</string>
+
+    
+    <!--relock-->
+    <string name="pref_relock_imm">Immediately</string>
+    <string name="pref_relock_sc">After ScreenLock</string>
+    <string name="pref_relock_15">15 seconds</string>
+    <string name="pref_relock_30">30 seconds</string>
+    <string name="pref_relock_1">1 minute</string>
+    <string name="pref_relock_2">2 minutes</string>
+    <string name="pref_relock_5">5 minutes</string>
+    <string name="pref_relock_10">10 minutes</string>
+
+    <!--digit-->
+    <string name="pref_digit_4">4 Digits</string>
+    <string name="pref_digit_5">5 Digits</string>
+    <string name="pref_digit_6">6 Digits</string>
+    <string name="pref_digit_7">7 Digits</string>
+    <string name="pref_digit_8">8 Digits</string>
+
+    <!--vol-->
+    <string name="pref_vol_low">Low</string>
+    <string name="pref_vol_med">Medium</string>
+    <string name="pref_vol_hi">High</string>
+
+    <!--times-->
+    <string name="pref_times1">1 Time</string>
+    <string name="pref_times2">2 Times</string>
+    <string name="pref_times3">3 Times</string>
+    <string name="pref_times4">4 Times</string>
+
+
+    <!--times-->
+    <string name="pref_relock_45">45 seconds</string>
+    <string name="pref_relock_3">3 minutes</string>
+</resources>
